@@ -1,0 +1,22 @@
+{
+    "name": "hlaporthein/inoforest-minify",
+    "description": "HTML Source Code Minify",
+    "type": "plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hla Por Thein",
+            "email": "hlaporthein@gmail.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "inc/hooks.php"
+        ]
+    }
+}
